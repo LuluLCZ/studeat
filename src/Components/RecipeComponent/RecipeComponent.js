@@ -16,7 +16,7 @@ const RecipeComponent = () => {
             </div>
             <div className="firstRecipe">
                 <div className="RecipeTitle">La recette</div>
-                <div className="RecipeInfo">Temps: 30min<br />Personne: 1</div>
+                <div className="RecipeInfo">Temps: 30min<br />Personne: 1<br /><b>Prix: 5euros</b></div>
                 <img src={recipe} className="recipe1" />
             </div>
         </div>
