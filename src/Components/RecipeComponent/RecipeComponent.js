@@ -12,7 +12,7 @@ const RecipeComponent = () => {
                 <div className="studEatDesc deliveryDesc">
                     La première livraison sera lancée le <div className="orangeText"><b>Mercredi 20 Janvier 2021</b></div> sur le campus de HEC, dans le hall du M1 <div className="orangeText"> <b>entre 12h et 13h.</b></div>
                 </div>
-                <a className="btn btn-success commandBtn" href="https://lydia-app.com/collect/48418-stud-eat/fr" role="button">Commande</a>
+                <a className="btn btn-success commandBtn" href="https://lydia-app.com/collect/48418-stud-eat/fr" role="button">Je commande</a>
             </div>
             <div className="firstRecipe">
                 <div className="RecipeTitle">La recette</div>
