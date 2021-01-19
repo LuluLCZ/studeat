@@ -10,7 +10,7 @@ const RecipeComponent = () => {
                     Participe à la première livraison
                 </div>
                 <div className="studEatDesc deliveryDesc">
-                    La première livraison sera lancé le <div className="greenText"><b>Mercredi 20 Janvier 2021</b></div> sur le campus de HEC, dans le hall du M1 <div className="greenText"> <b>entre 12h et 13h.</b></div>
+                    La première livraison sera lancé le <div className="orangeText"><b>Mercredi 20 Janvier 2021</b></div> sur le campus de HEC, dans le hall du M1 <div className="orangeText"> <b>entre 12h et 13h.</b></div>
                 </div>
                 <a className="btn btn-success commandBtn" href="#" role="button">Commande</a>
             </div>
