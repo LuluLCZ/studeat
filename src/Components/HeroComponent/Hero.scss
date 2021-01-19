@@ -1,0 +1,67 @@
+.HeroFlexContainer {
+    display: flex;
+    flex-direction: row;
+    // background-image: url("../../Images/landing_hero.png");
+}
+
+.BackgroundLanding {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+.ImgHeroContainer {
+    margin-left: auto;
+    @media screen and (max-width: 425px) {
+        margin-top: 30%;
+        margin-right: 0%;
+    }
+    margin-right: 5%;
+    margin-top: 35%;
+}
+
+// .HeroLogo {
+//     @media screen and (max-width: 425px) {
+//         width: 40%;
+//         margin-left: 50%;
+//     }
+//     width: 100%;
+// }
+
+.studEatDescriptionContainer {
+    width: 50%;
+    margin-left: auto;
+}
+
+.studEatTitle {
+    @media screen and (max-width: 425px) {
+        font-size: 15px;
+        line-height: 11px;
+    }
+    @media screen and (max-width: 320px) {
+        font-size: 13px;
+        line-height: 11px;
+    }
+    font-family: Roboto, sans-serif;
+    font-weight: 900;
+    font-size: 43px;
+    line-height: 50px;
+    letter-spacing: -0.5px;
+}
+
+.studEatDesc {
+    @media screen and (max-width: 425px) {
+        font-size: 14px;
+        line-height: 14px;
+    }
+    @media screen and (max-width: 320px) {
+        font-size: 9px;
+        line-height: 10px;
+        letter-spacing: 0px;
+    }
+    font-family: Roboto, sans-serif;
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -1px;
+}

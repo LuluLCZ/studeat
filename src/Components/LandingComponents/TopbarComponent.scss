@@ -1,0 +1,12 @@
+.rightNav {
+    @media screen and (max-width: 425px) {
+        width: 60%;
+    }
+    width: 20%;
+}
+
+.navbar-nav {
+    flex-direction: row;
+    justify-content: space-between;;
+}
+
