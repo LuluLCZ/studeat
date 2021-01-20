@@ -5,6 +5,7 @@ import TopbarComponent from './Components/LandingComponents/TopbarComponent';
 import AboutContainer from './Containers/AboutContainer/AboutContainer';
 
 import LandingContainer from './Containers/LandingContainer/LandingContainer';
+import RecetteContainer from './Containers/RecetteContainer/RecetteContainer';
 
 function App() {
   return (
@@ -13,25 +14,10 @@ function App() {
       <Switch>
         <Route path="/" exact component={LandingContainer} />
         <Route path="/about" exact component={AboutContainer} />
+        <Route path="/recette" exact component={RecetteContainer} />
       </Switch>
       <FooterComponent />
     </div>
-    // <div className="App">
-    //   <header className="App-header">
-    //     <img src={logo} className="App-logo" alt="logo" />
-    //     <p>
-    //       Edit <code>src/App.js</code> and save to reload.
-    //     </p>
-    //     <a
-    //       className="App-link"
-    //       href="https://reactjs.org"
-    //       target="_blank"
-    //       rel="noopener noreferrer"
-    //     >
-    //       Learn React
-    //     </a>
-    //   </header>
-    // </div>
   );
 }
 

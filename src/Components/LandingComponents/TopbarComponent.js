@@ -11,6 +11,7 @@ const TopbarComponent = () => {
             </a>
             <div className="rightNav" id="navbarNavAltMarkup">
                 <div className="navbar-nav">
+                    <a className="nav-item nav-link" href="/recette">Recette</a>
                     <a className="nav-item nav-link" href="https://lydia-app.com/collect/48418-stud-eat/fr">Commander</a>
                     <a className="nav-item nav-link" href="/about">À propos</a>
                 </div>

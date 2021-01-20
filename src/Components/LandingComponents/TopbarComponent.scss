@@ -10,3 +10,8 @@
     justify-content: space-between;;
 }
 
+.nav-item {
+    @media screen and (max-width: 425px) {
+        font-size: 12px;
+    }
+}
